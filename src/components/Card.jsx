@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 const CardContainer = styled.div`
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 4px solid #bfdff8;
   border-radius: 10px;
   width: 100%;
   cursor: pointer;
   transition: transform 0.2s;
+  background-color: #a5def7;
+  box-shadow: 5px 10px #cfbade;
 
   &:hover {
     transform: scale(1.05);

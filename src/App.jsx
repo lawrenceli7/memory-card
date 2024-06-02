@@ -6,8 +6,11 @@ import Scoreboard from "./components/Scoreboard";
 
 const AppContainer = styled.div`
   text-align: center;
-  padding: 10px;
   font-family: "Roboto", sans-serif;
+`;
+
+const Header = styled.h1`
+  font-family: "Bangers", cursive;
 `;
 
 const App = () => {
@@ -53,7 +56,7 @@ const App = () => {
 
   return (
     <AppContainer>
-      <h1>Disney</h1>
+      <Header>Disney Memory Card</Header>
       <Scoreboard currentScore={currentScore} bestScore={bestScore} />
       <GameBoard characters={characters} handleClick={handleCardClick} />
     </AppContainer>
